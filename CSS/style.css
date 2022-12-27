@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+:root {
+  --primary: #8dc63f;
+  --secondary: #0d6db7;
+  --pure: #ffffff;
+  --light: #fafafa;
+  --font: "Poppins", sans-serif;
+}
+/* .container {
+  border: 2px solid red;
+} */
+.sub-container {
+  /* border: 2px solid blue; */
+  width: 70vw;
+  margin: auto;
+}
+
+/* title section starts here */
+.title {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  /* padding: 1rem 0; */
+  /* border: 2px solid red; */
+  font-family: var(--font);
+}
+.title div {
+  margin-top: 0.5rem;
+}
+.title div h1 {
+  font-weight: 600;
+  font-size: 2.1rem;
+
+  /* margin-top: 0; */
+}
+.title div h5 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.newapp {
+  color: var(--primary);
+}
+.download {
+  color: var(--secondary);
+}
+.result {
+  color: var(--secondary);
+}
+.title a {
+  background-color: var(--light);
+  padding: 0 0.8rem;
+  margin-bottom: 0;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/* title section ends here */
+/*  form group 1 section starts here */
+.group-1 {
+  margin-top: 2.5rem;
+}
+section.group-1 form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* column-gap: -5px; */
+  row-gap: 1rem;
+}
+form select {
+  width: 450px;
+  padding: 12px;
+  border: 1px solid var(--primary);
+  outline: none;
+  border-radius: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+  /* appearance: none; */
+}
+form select:focus {
+  border: 1px solid var(--secondary);
+}
+form input {
+  width: 450px;
+  padding: 12px;
+  border: 1px solid var(--primary);
+  outline: none;
+  border-radius: 5px;
+  font-weight: 500;
+  border-radius: 5px;
+  /* font-size: 1rem; */
+}
+form input:focus {
+  /* border: 1px solid var(--secondary); */
+  box-shadow: 0px 0px 5px var(--secondary);
+  outline: none;
+  border: none;
+}
+/*  form group 1 section ends here */
+.group-2 {
+  margin-top: 1rem;
+}
+section.group-2 form input {
+  width: 925px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+section.group-2 form select {
+  width: 925px;
+  margin-bottom: 1rem;
+}
+p {
+  color: var(--secondary);
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+/* picture section starts here */
+.picture {
+  display: flex;
+}
+.choose[type="file"] {
+  display: none;
+}
+label {
+  display: block;
+  background-color: var(--light);
+  width: 150px;
+  padding: 40px;
+  height: 100px;
+  border: 1px dotted var(--secondary);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.picture div {
+  margin-right: 1.5rem;
+}
+.picture div ul {
+  list-style: none;
+  padding-top: 1.5rem;
+}
+.picture div ul li {
+  font-size: 0.8rem;
+}
+/* picture section ends here */
+/* submit section */
+.submit {
+  margin-top: 4rem;
+}
+.submit div ol {
+  margin-left: 1rem;
+}
+.submit div ol li {
+  font-size: 0.8rem;
+}
+.submit div button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 5px;
+  color: var(--pure);
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+/* 2nd page */
+.cnic {
+  width: 60%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.cnic input {
+  width: 600px;
+  padding: 15px;
+  border: 1px solid var(--primary);
+  outline: none;
+  border-radius: 5px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.cnic input:focus {
+  box-shadow: 0px 0px 5px var(--secondary);
+  outline: none;
+  border: none;
+}
+.cnic button {
+  width: 600px;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  background-color: #62a1d0;
+  border: none;
+  border-radius: 5px;
+  color: var(--pure);
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+div .id {
+  color: var(--primary);
+}
+div .blue {
+  color: var(--secondary);
+}
+div .same {
+  color: var(--secondary);
+}
+div .green {
+  color: var(--primary);
+}
